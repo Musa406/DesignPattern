@@ -8,7 +8,9 @@ public class DoCommand implements ICommand  {
 	private Circle circle;
 	
 	private void getInputFromUser() {
+		
 		Scanner sc = new Scanner(System.in);
+		
 		System.out.println("Enter circle position to create :");
 		System.out.println("Enter circle X coordinate = ");
 		x = sc.nextLine();
